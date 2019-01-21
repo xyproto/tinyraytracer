@@ -1,3 +1,14 @@
-# Ignore content built with CMake
-build/
+# Swap and backup files
+*~
+*.swp
+*.tmp
+*.bak
+*.backup
+
+# Image output files
+*.ppm
+
+# Object files and executables
+*.o
+tinyraytracer
 
